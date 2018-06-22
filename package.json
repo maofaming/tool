@@ -1,0 +1,30 @@
+{
+  "name": "htmlclear",
+  "version": "1.0.0",
+  "description": "sanitize-html nodejs html clear",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development nodemon --watch ./app.js --watch ./api app.js",
+    "build": "cross-env NODE_ENV=production node app.js"
+  },
+  "keywords": [
+    "html",
+    "clear"
+  ],
+  "author": "maofaming@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "sanitize-html": "^1.18.2",
+    "vue": "^2.5.16"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "nodemon": "^1.17.5",
+    "parcel-bundler": "^1.9.2",
+    "shelljs": "^0.8.2"
+  }
+}
