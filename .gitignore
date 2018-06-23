@@ -20,6 +20,8 @@ _thumbs/
 
 node_modules/
 public/
+log/
+.cache/
 
-.cache
+
 
