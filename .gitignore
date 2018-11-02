@@ -18,6 +18,7 @@ thumbs/
 _thumbs/
 */expressionengine/cache/*
 
+.idea
 node_modules/
 public/
 log/
